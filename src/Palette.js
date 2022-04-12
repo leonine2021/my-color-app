@@ -9,6 +9,8 @@ export default class PALETTE extends Component {
     this.state = { level: 500, format: "hex" };
     this.changeLevel = this.changeLevel.bind(this);
     this.changeFormat = this.changeFormat.bind(this);
+    // this.id = this.props.match.params.id;
+    // console.log(this.props);
   }
 
   changeLevel(level) {
